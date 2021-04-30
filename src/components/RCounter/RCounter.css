@@ -1,0 +1,16 @@
+.counter-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+}
+.counter-buttons .counter {
+    user-select: none;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid var(--main-color);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    line-height: 15px;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+.button-select-file {
+    cursor: pointer;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    padding: 8px 12px;
+    display: inline-block;
+    user-select: none;
+}
+.state-select-file {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-select-file {
+    display: none;
+}
+.unset-select-file {
+    cursor: pointer;
+    color: var(--red-color);
+    border: 1px solid var(--red-color);
+    font-size: 12px;
+    padding: 4px 8px;
+    margin-left: 8px;
+    user-select: none;
+}
+.title-select-file {
+    font-size: 14px;
+}
+.button-process-file {
+    cursor: pointer;
+    color: var(--green-color);
+    border: 1px solid var(--green-color);
+    padding: 2px 24px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    user-select: none;
+}

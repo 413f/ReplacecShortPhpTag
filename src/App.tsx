@@ -1,23 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import './styles/color.css'
+import './styles/general.css'
+
+//import RButton from './components/RButton/RButton'
+import RFixPhpTags from './components/RFixPhpTags/RFixPhpTags'
 
 function App() {
+  const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const themeClass = isDark || true ? 'dark-theme' : 'light-theme';
+  const appClass ='App '+themeClass;
   return (
-    <div className="App">
+    <div className={appClass} id="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <RFixPhpTags></RFixPhpTags>
       </header>
     </div>
   );

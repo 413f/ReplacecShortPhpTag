@@ -1,0 +1,15 @@
+.fix-php-tags {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fix-php-tags .select-file-block {
+    height: 30vh;
+}
+.fix-php-tags .messages-block {
+    height: 70vh;
+    overflow-y: auto;
+}
