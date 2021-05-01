@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: flex-start;
 }
+
 .log-messages .log-message {
-    font-size: 10px;
+    font-size: 15px;
 }

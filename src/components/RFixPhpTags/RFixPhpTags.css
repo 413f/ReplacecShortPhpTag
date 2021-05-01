@@ -1,15 +1,39 @@
 .fix-php-tags {
+    /*
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    */
+    position: relative;
+    width: 100%;
 }
 
 .fix-php-tags .select-file-block {
-    height: 30vh;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .fix-php-tags .messages-block {
-    height: 70vh;
+    height: 100vh;
+    width: 100vw;
     overflow-y: auto;
+    position: absolute;
+    z-index: 10;
+}
+.fix-php-tags .messages-block::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.fix-php-tags .messages-block::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.fix-php-tags .messages-block::-webkit-scrollbar-thumb {
+  background-color: var(--second-background-color);
+  outline: 1px solid var(--outline-color);
 }

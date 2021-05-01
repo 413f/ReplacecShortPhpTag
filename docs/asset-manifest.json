@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/ReplacecShortPhpTag/static/css/main.77027922.chunk.css",
-    "main.js": "/ReplacecShortPhpTag/static/js/main.e5959ef0.chunk.js",
+    "main.css": "/ReplacecShortPhpTag/static/css/main.aea59614.chunk.css",
+    "main.js": "/ReplacecShortPhpTag/static/js/main.9bfeb26f.chunk.js",
+    "main.js.map": "/ReplacecShortPhpTag/static/js/main.9bfeb26f.chunk.js.map",
     "runtime-main.js": "/ReplacecShortPhpTag/static/js/runtime-main.bcfd3985.js",
+    "runtime-main.js.map": "/ReplacecShortPhpTag/static/js/runtime-main.bcfd3985.js.map",
     "static/js/2.9dc5b96d.chunk.js": "/ReplacecShortPhpTag/static/js/2.9dc5b96d.chunk.js",
+    "static/js/2.9dc5b96d.chunk.js.map": "/ReplacecShortPhpTag/static/js/2.9dc5b96d.chunk.js.map",
     "static/js/3.f04be903.chunk.js": "/ReplacecShortPhpTag/static/js/3.f04be903.chunk.js",
+    "static/js/3.f04be903.chunk.js.map": "/ReplacecShortPhpTag/static/js/3.f04be903.chunk.js.map",
     "index.html": "/ReplacecShortPhpTag/index.html",
     "service-worker.js": "/ReplacecShortPhpTag/service-worker.js",
+    "service-worker.js.map": "/ReplacecShortPhpTag/service-worker.js.map",
+    "static/css/main.aea59614.chunk.css.map": "/ReplacecShortPhpTag/static/css/main.aea59614.chunk.css.map",
     "static/js/2.9dc5b96d.chunk.js.LICENSE.txt": "/ReplacecShortPhpTag/static/js/2.9dc5b96d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bcfd3985.js",
     "static/js/2.9dc5b96d.chunk.js",
-    "static/css/main.77027922.chunk.css",
-    "static/js/main.e5959ef0.chunk.js"
+    "static/css/main.aea59614.chunk.css",
+    "static/js/main.9bfeb26f.chunk.js"
   ]
 }

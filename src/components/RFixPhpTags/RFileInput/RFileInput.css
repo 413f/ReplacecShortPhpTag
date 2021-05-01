@@ -1,39 +1,49 @@
-.button-select-file {
+.select-file {
+    z-index: 15;
+    background-color: var(--background-color);
+    padding: 30px;
+    border: 1px solid var(--outline-color);
+    user-select: none;
+}
+.select-file .button-select-file {
     cursor: pointer;
     color: var(--main-color);
     border: 1px solid var(--main-color);
-    padding: 8px 12px;
+    padding: 8px 12px 10px 12px;
     display: inline-block;
-    user-select: none;
+    text-transform: uppercase;
 }
-.state-select-file {
+.select-file .state-select-file {
     margin-top: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.input-select-file {
+.select-file .input-select-file {
     display: none;
 }
-.unset-select-file {
+.select-file .unset-select-file {
     cursor: pointer;
     color: var(--red-color);
     border: 1px solid var(--red-color);
     font-size: 12px;
-    padding: 4px 8px;
+    padding: 4px 8px 5px 8px;
     margin-left: 8px;
-    user-select: none;
+    text-transform: uppercase;
 }
-.title-select-file {
+.select-file .title-select-file {
     font-size: 14px;
 }
-.button-process-file {
+.select-file .process-file-block {
+    margin-top: 16px;
+}
+.select-file .process-file-block .button-process-file {
     cursor: pointer;
     color: var(--green-color);
     border: 1px solid var(--green-color);
-    padding: 2px 24px;
+    padding: 3px 24px 5px 24px;
     line-height: 24px;
     display: inline-block;
     vertical-align: middle;
-    user-select: none;
+    text-transform: uppercase;
 }

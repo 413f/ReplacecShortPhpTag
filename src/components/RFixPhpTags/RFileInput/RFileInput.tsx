@@ -55,7 +55,7 @@ function RFileInput(props: {onStartProccess: Function}){
     
     const unsetNode = <span className='unset-select-file' onClick={unsetSelectedFile} >Unset</span>;
     const processFileButton = <span className='button-process-file' onClick={() => {onStartProccess(file)}}>Process</span>
-    return <div>
+    return <div className='select-file'>
         <span onClick={onClickElement} className='button-select-file'>Select File</span>
         {inputNode}
         <div className='state-select-file'>
@@ -63,7 +63,7 @@ function RFileInput(props: {onStartProccess: Function}){
             {isSelectedFile ? unsetNode : ''}
         </div>
         {isSelectedFile ?
-            <div>
+            <div className='process-file-block'>
                 {processFileButton}
             </div>
         :''}
